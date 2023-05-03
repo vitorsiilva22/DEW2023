@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="" method="">
+    <div>
+        <label for="nome_usuario">Nome:</label><!--Label insere um rótulo-->
+        <!--Input texte é um campo de entrada de texto-->
+        <input type="text" name="nome_usuario" id="nome_usuario" size="50"
+         maxlength="10" minlength="3">
+    </div>
+    <br>
+    <div>
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha" size="20"
+         maxlength="15" minlength="8" required>
+    </div>
+    <br>
+    <div>
+       <label for="">hobbies</label>
+       <input type="checkbox" name="esporte" id="esporte">
+       <label for="esporte">Esporte</label>
+       <input type="checkbox" name="cinema" id="cinema">
+       <label for="cinema">Cinema</label>
+       <input type="checkbox" name="leitura" id="leitura">
+       <label for="leitura">Leitura</label>
+
+    </div>
+    <br>
+     <div>
+      <label for="">Escolha o Tipo</label>
+      <input type="radio" name="tipo" id="adulto" checked>
+      <label for="adulto">Adulto</label>
+      <input type="radio" name="tipo" id="adolescente">
+      <label for="adolescente">Adolescente</label>
+      <input type="radio" name="tipo" id="criança">
+      <label for="criança">Criança</label>
+     </div>
+    <br>
+    <div>
+      <label for="arquivo">Escolha um Arquivo:</label>
+      <input type="file" name="arquivo" id="arquivo">
+      
+
+    </div>
+    <br>
+    <div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Apagar</button>
+        <!--------------Botões---------------
+        <input type="submit" value="enviar">
+        <input type="reset" value="apagar">-->
+    </div>
+
+    </form>
+    
+</body>
+</html>
