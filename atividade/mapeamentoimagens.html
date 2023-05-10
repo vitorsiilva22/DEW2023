@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Mapeamento</title>
+</head>
+<body>
+    <h1>Mapeamento de imagens</h1>
+
+    <p>Selecione alguma forma para acessar as páginas</p>
+    
+    <img src="../img/formas-geometricas.jpeg" alt="Formas geométricas" usemap="#rs">
+    
+    <section>
+        <map name="rs">
+            <area shape="circle" coords="178,254.,100"
+            href="../paginas/tabelas.html" alt="" target="alvo" title="Círculo">
+            <area shape="rect" coords="620,156,818,350"
+            href="https://www.globo.com/" alt="" target="alvo" title="Retângulo">
+            <area shape="poly" coords="350,351,449,154,549,352"
+             href="../paginas/links.html" alt="" target="alvo" title="Triângulo">
+        </map>
+    </section>
+
+    <iframe src="" frameborder="0" name="alvo" width="1000" height="500"></iframe>
+</body>
+</html>
