@@ -1,0 +1,142 @@
+ passo  do git:
+ 1-entrar no git hub
+ 2-abrir vscode
+ 3-fechar pasta aberta 
+ 4-ir no botao source 
+ 5-copiar url  do repositorio e colar em source control 
+ 6-clpnar diretorio
+ 7-confirmar sua confianca 
+                       fim  da cloangem 
+
+               configurar terminal
+1-ir no  terminal 
+2-digitar comandos
+3-fechar terminal
+     
+                enviando mudancas para o  git
+1-salvar mudancas 
+2-ir no source 
+3-em changes
+4-colocar mensage commit 
+5-clicar na seta 
+6-commit e push
+7-na primeira vez autorizar
+8-ver no git 
+
+comandos do html:
+<></>: fecha e abre comandos 
+
+html><html>: so aparece uma vez e representa o inicio e fim do seu codigo
+ <html lang=>, altera sua lingua,  use ="pt-br"
+|
+<meta><meta>: altera coisas na sua escrita 
+  charset: compreende acentuacao,  de preferencia use ="UTF-8"
+
+<a href=><a>: enetnde como link tudo que estiver em seu corpo,  caso tenha um # nao levara a lugar nenhum
+  <../alguma coisa> quando for criar o caminho de um arquivo para outro, vocer pode sair daquele que 
+  voce esta com o comando <../s
+  target:colocamos logo apos colocarmos href="", isso indica aonde a pagina deve ser aberta, caso voce
+  coloque ="blank" voce ira abrir a pagina em outra janela, caso voce coloque ="self" abrira a pagina
+  na mesma janela que voce esta 
+  id=: podemos colocar id em um h1,p e etc, isso indica que ele e um link, mais como um destino para o limk
+  , se voce colocar em href="#id", sendo id o nome que voce colocou no id em h1,p e etc o link te levara
+  na area da sua pagina que se encontra o id, como uma viagem rapida pela pagina
+  
+<body><body>: representa o corpo dos eu site 
+   
+   elementos block (ocupam toda a linha):
+
+   <h1>: maior fonte da parte body
+    <h2>, <h3>, <h4>, <h5> e <6h>
+   <p>: representa paragrafos 
+
+<!--apesar de ser um elemento block a tag <table> pode ser apropriada de elementos line-->
+   
+   <table>: delimita a area de uma tabela em seu site. podemos usar as seguintes atribuiçoes:
+     *border=: determina a borda de uma tabela 
+    
+     abaixo serão elementos usados em CSS:
+     *width=:largura da tabela 
+     *cellspacing=:espaço entre as celulas 
+     *cellspadding=: espaço entre a borda da tabela e suas celulas
+  
+    tags que ficam dentro da tag <table>:
+    
+     <caption>: determina o titulo de uma tabela 
+    
+    <tr>:ela abre uma linha na tabela, nesta linha voce colocara colunas
+      
+      <td>:usada dentro de <tr>, determina as colunas, divisões visuais entre os elementos 
+       atributos de td e th:
+        *colspan: usado para aumentar a celula da tabela, ele aumenta a celula em relaçao as colunas,
+        aumenta ela para direita
+        *rowspan: aumenta as celulas em relaçao as linhas, aumenta para baixo
+
+      <form>: e a forma de introduzir um formulario dentro do seu site, o formulario e a forma de interaçao
+      entre o individuo que esta acessando o site e o seu criador. tags para usar dentro:
+
+        <label>:da um titulo a aba de interaçao 
+        
+        <input>: abre a entrada para a informaçao, pode ser acompanhado dos atributos: size=determina
+        o tamanho da aba de interaçao; maxlenght e minlenght= determinam a quantidade de letras; type= determina 
+        o seu tipo; required= o torna obrigatorio. vejamos alguns types:
+        
+        *text=abre ala para o usuario escrever um texto
+        *password=literalmente em formato de senha
+        *checkbox=um quadrado aonde podemos interagir 
+        *radio=a mesma coisa que i checkbox porem, se os input tiverem mesmo nome, apenas um pode ser
+        selecionado 
+        *file= lhe permite introduzir um arquivo (pode ser usado junto a "accept" para restringir 
+        o tipo de arquivo)
+        *placeholder=uma escrita de fundo
+
+        <select>: como diz o nome, introdiz a possubilidade de escolha, elas aparecem ao lado
+        e possuem seu nime atribuido pela tag <option>
+
+        <textarea>: abre a possibilidade do usuario escrever um texto
+
+        <fieldset>: usado para colocar as informaçoes dentro dele, pode ter <legend> abaixo  de fieldset
+        
+        <button>:literalmente botoes para o usuario interagir
+
+      mapemento de imagens
+
+      podemos mapeas imagens em html (colocar links em uma parte dela), vamos as tags: 
+
+      *usemap= iremos atrivuir um nome a imagem para que depois ela seja encontrada pelo html
+
+      <map name=>map abre o mapeamento de imagens, coloque em "name" o nome que voce colocou em "usemap"
+      desta forma voce selecionou a imagem que sera mapeada
+      <area>: este determina a area mapeada, usado abaixo de <map>, suas atribuiçoes sao:
+          
+          *shape= determina o formato da mapeamento, pode ser rect, circle ou poly
+          
+          *coords= determina as cordenadas conforme o shape, se for shape="rect" devemos escrever da seguinte 
+          forma:"X1,Y1,X2,Y2" sendo X1 e Y1 as cordenadas do canto superior esquerdo do quadrado e X2 e Y2 
+          as cordenadas do canto inferior direito. quando shape="circle" ficara da seguinte forma:"X,Y,R" 
+          sendo X e Y as cordenadas do ponto central do circulo e R o raio dele. Por ultimo quando shape="poly"
+          ficara da seguinte forma="X1,Y1,X2,Y2,X3,Y3...", sendo X e Y os pontos, sempre devemos seguir do ponto 
+          mais alto a esquerda, ir aos mais a dirita, seguir para baixo e depois esquerda para mapear os pontos desta imagem
+
+      <iframe>:permite abrirmos paginas dentro de outra pagina, colocamos naquilo que queremos abrir 
+      target="nome", depois coloquemos p atributo name="nome colocado em target", agora o link sera aberto 
+      na pagina 
+   
+   elemento line (não ocupa toda a linha):
+   
+   <img src>: e a tag que coloca imagens, nao e necessario fechala apenas introduzir o caminho 
+   ao qual o programa deve correr para encontra-lo em src="", alt="" e usado para colocar descriçoes
+   as imagens.
+      *diminuir imagem: primeiro podemos abrir a imagem no paint, logho depois diminuir sua quantidade
+ de pixels, ou usar as tags: height="" e width="", dentro da tag <img src=> 
+
+  <ol>: representa uma lista ordenada
+   <ul>:representa uma lista desordenada
+     <li>representa os elemntos da lista
+   
+   <dl>abre o inicio de uma lista de termos, ou uma lista sem numeraçao
+     <dt>e o primeirs lista, ela fica mais a direita que o comando <h>
+      <dd>e a sefunda lista, fica mais a direita que o  <dt>
+
+   
+

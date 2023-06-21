@@ -1,0 +1,15 @@
+.head
+{
+    text-align: center; /*alinhei o titulo*/
+}
+
+fieldset  
+{
+    display: inline;  /*tornei o fieldset um elemento inline para poder alinha-lo*/
+    text-align: center; /*alinhei o texto com esse comando*/
+    margin: 0 auto;
+    width: 100%;   /*formatei o tamamho do elemento fieldset para poder alinha-lo ao centro*/
+    height: 100%;
+}
+
+
