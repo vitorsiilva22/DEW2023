@@ -11,35 +11,36 @@ body{
 .c1{
     border-radius: 50px;
     background-color: red;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     margin: 10px;
 }
 .q1{
     background-color: green;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     margin: 10px;
     border-radius: 20px;
+    
 }
 .q2{
     background-color: green;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     margin: 10px;
     border-radius: 20px;
 }
 .q3{
     background-color: green;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     margin: 10px;
     border-radius: 20px;
 }
 .q3{
     background-color: green;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     margin: 10px;
     border-radius: 20px;
 }
@@ -48,29 +49,29 @@ body{
 }
 .q4{
     background-color: green;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     margin: 10px;
     border-radius: 20px;
 }
 .q5{
     background-color: green;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     margin: 10px;
     border-radius: 20px;
 }
 .q6{
     background-color: green;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     margin: 10px;
     border-radius: 20px;
 }
 .q7{
     background-color: green;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     margin: 10px;
     border-radius: 20px;
 }
@@ -79,29 +80,29 @@ body{
 }
 .q8{
     background-color: green;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     margin: 10px;
     border-radius: 20px;
 }
 .q9{
     background-color: darkseagreen;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     margin: 10px;
     border-radius: 20px;
 }
 .q10{
     background-color: green;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     margin: 10px;
     border-radius: 20px;
 }
 .q11{
     background-color: darkseagreen;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     margin: 10px;
     border-radius: 20px;
 }
@@ -142,3 +143,5 @@ body{
 }
 .q10.is-animating {
     animation: loading 3s ;
+}
+@keyframes 
