@@ -1,0 +1,144 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: darkseagreen;
+}
+#coluna1{
+    flex-direction: column;
+}
+.c1{
+    border-radius: 50px;
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+.q1{
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.q2{
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.q3{
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.q3{
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 20px;
+}
+#coluna2{
+    flex-direction: column;
+}
+.q4{
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.q5{
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.q6{
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.q7{
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 20px;
+}
+#coluna3{
+    flex-direction: column;
+}
+.q8{
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.q9{
+    background-color: darkseagreen;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.q10{
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.q11{
+    background-color: darkseagreen;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 20px;
+}
+@keyframes loading {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(720deg);
+	}
+}
+.c1.is-animating {
+	animation: loading 3s ;
+}
+.q1.is-animating {
+	animation: loading 3s ;
+}
+.q2.is-animating {
+	animation: loading 3s ;
+}
+.q3.is-animating {
+	animation: loading 3s ;
+}
+.q4.is-animating {
+	animation: loading 3s ;
+}
+.q5.is-animating {
+	animation: loading 3s ;
+}
+.q6.is-animating {
+	animation: loading 3s ;
+}
+.q7.is-animating {
+	animation: loading 3s ;
+}
+.q8.is-animating {
+	animation: loading 3s ;
+}
+.q10.is-animating {
+    animation: loading 3s ;
